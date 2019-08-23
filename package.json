@@ -1,0 +1,35 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Solo project for Chingu",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maguilar93/Tier1_Chingu.git"
+  },
+  "keywords": [
+    "chingu",
+    "tier1",
+    "solo",
+    "project",
+    "conquer"
+  ],
+  "author": "Maria Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maguilar93/Tier1_Chingu/issues"
+  },
+  "homepage": "https://github.com/maguilar93/Tier1_Chingu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {}
+}

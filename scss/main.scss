@@ -1,0 +1,277 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  background-color: #383e4c;
+  height: 10%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  text-align: center;
+}
+
+nav button {
+  padding: 15px;
+  margin: 1%;
+  background-color: #383e4c;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Section About Us */
+/* Row One */
+
+.rowOne {
+  background-image: url("../img/adventure-clouds-dog.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 60%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+  padding-top: 15%;
+}
+
+.rowOne h1 {
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
+.rowOne h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.rowTwo,
+.rowThree {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Row Two */
+
+.rowTwo div {
+  width: 30%;
+  background-color: #f2f2f2;
+}
+
+.greenText {
+  color: #178a27;
+}
+
+.greenButton {
+  background-color: #178a27;
+}
+
+.blueText {
+  color: #1686c1;
+}
+
+.blueButton {
+  background-color: #1686c1;
+}
+
+.greyText {
+  color: grey;
+}
+
+.redButton {
+  background-color: #c9302c;
+}
+
+.rowTwo div img,
+.rowThree div img {
+  width: 100%;
+  height: 30%;
+}
+
+.rowTwo div h3 {
+  margin: 5%;
+  text-align: left;
+  font-size: 1.6em;
+}
+
+.rowTwo div p,
+.rowThree div p {
+  margin: 5%;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #16111c;
+}
+
+.rowTwo div button {
+  height: 2.3em;
+  font-size: 1.2em;
+  width: 8em;
+  color: white;
+  border-radius: 5px;
+  margin: 5% -50px;
+  position: relative;
+  left: 45%;
+}
+
+/* Row Three */
+.rowThree div {
+  width: 45%;
+  background-color: #f2f2f2;
+}
+
+.rowThree div h3 {
+  margin: 5%;
+  text-align: center;
+  font-size: 1.6em;
+  color: grey;
+}
+
+.rowThree div button {
+  height: 2.3em;
+  font-size: 1.2em;
+  width: 8em;
+  color: grey;
+  border-radius: 5px;
+  margin: 2% -50px 5% -50px;
+  position: relative;
+  left: 65%;
+}
+
+/* Our services section */
+/* part one */
+
+.partOne {
+  background-image: url("../img/arch-bridge-clouds.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+  padding-top: 5%;
+  margin-top: 5%;
+}
+
+.partOne h2 {
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.partOne p {
+  margin: 0 25%;
+  font-size: 1.2em;
+}
+
+.partTwo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.partTwo div {
+  width: 23%;
+  background-color: #f2f2f2;
+}
+
+.partTwo div img {
+  width: 100%;
+  height: 35%;
+}
+
+.partTwo div h3 {
+  text-align: center;
+}
+
+.partTwo div p {
+  margin: 5%;
+}
+
+.partTwo div button {
+  height: 2.3em;
+  font-size: 1.2em;
+  width: 6em;
+  color: grey;
+  border-radius: 10px;
+  margin: 10% 27%;
+}
+
+.partThree {
+  margin-top: 5%;
+  background-color: #f2f2f2;
+}
+
+.partThree img {
+  width: 100%;
+}
+
+.partThree h3,
+.partThree p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.partThree button {
+  height: 3em;
+  font-size: 1.2em;
+  width: 9em;
+  color: grey;
+  border-radius: 10px;
+  margin: 2% 5%;
+}
+
+.contact {
+  margin-top: 5%;
+  background-image: url("../img/city-clouds.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75%;
+}
+
+.contact div {
+  left: 25%;
+  top: 20%;
+  position: relative;
+  width: 50%;
+}
+
+.topForm h2 {
+  font-size: 2.5em;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.topForm p {
+  text-align: center;
+  background-color: rgba(246, 246, 246, 0.4);
+  height: 15%;
+  padding: 5% 15%;
+}
+
+.bottomForm {
+  display: flex;
+}
+
+.formLeft input {
+  width: 100%;
+  height: 7%;
+  margin: 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(246, 246, 246, 0.4);
+}
+
+.formLeft input ::placeholder {
+  padding-left: 5%;
+}
