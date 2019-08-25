@@ -12,11 +12,17 @@
   </head>
   <header>
     <nav>
-      <button id="navOption">Homepage</button>
-      <button id="navOption">About Us</button>
-      <button id="navOption">Services</button>
-      <button id="navOption">Contact</button>
-      <button id="navOption">External</button>
+      <button id="navOption"><a href="#">Homepage</a></button>
+      <button id="navOption">
+        <a href="#" class="aboutButton">About Us</a>
+      </button>
+      <button id="navOption">
+        <a href="#" class="servicesButton">Services</a>
+      </button>
+      <button id="navOption">
+        <a href="#" class="contactButton">Contact</a>
+      </button>
+      <button id="navOption"><a href="#">External</a></button>
     </nav>
   </header>
   <body>
@@ -106,7 +112,7 @@
     </section>
     <section class="services">
       <div class="partOne">
-        <h2>Our Services</h2>
+        <a><h2>Our Services</h2></a>
         <p>
           Nunc diam leo, fringilla vulputate elit lobortis, consectetur
           vestibulum quam. Sed id felis ligula. In euismod libero at magna
@@ -178,7 +184,7 @@
         <button>Read More</button>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" name="contact">
       <div>
         <form class="topForm">
           <h2>Contact Form</h2>
@@ -210,12 +216,17 @@
     </section>
   </body>
   <footer>
-    <h2>Use it free!</h2>
-    <p>
-      “Conquer is free Bootstrap template from TemplateMo website. No backlink
-      is required to use this layout.”
-    </p>
+    <div class="topFooter">
+      <h2>Use it free!</h2>
+      <p>
+        “Conquer is free Bootstrap template from TemplateMo website. No backlink
+        is required to use this layout.”
+      </p>
+    </div>
     <hr />
-    <p>Copyright © 2045 Your Company Name | Design: TemplateMo</p>
+    <div class="bottomFooter">
+      <p>Copyright © 2045 Your Company Name | Design: TemplateMo</p>
+    </div>
   </footer>
+  <script src="js/main.js"></script>
 </html>

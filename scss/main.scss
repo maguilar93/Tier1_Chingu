@@ -7,7 +7,7 @@ body {
 
 nav {
   background-color: #383e4c;
-  height: 10%;
+  height: 8%;
   padding-top: 1%;
   padding-bottom: 1.5%;
   text-align: center;
@@ -20,6 +20,11 @@ nav button {
   color: white;
   font-size: 1.2em;
   font-family: "Montserrat", sans-serif;
+}
+
+nav button:hover {
+  background-color: #474f61;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -74,6 +79,11 @@ nav button {
   background-color: #178a27;
 }
 
+.greenButton:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
 .blueText {
   color: #1686c1;
 }
@@ -82,12 +92,22 @@ nav button {
   background-color: #1686c1;
 }
 
+.blueButton:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
 .greyText {
   color: grey;
 }
 
 .redButton {
   background-color: #c9302c;
+}
+
+.redButton:hover {
+  background-color: red;
+  cursor: pointer;
 }
 
 .rowTwo div img,
@@ -145,6 +165,11 @@ nav button {
   left: 65%;
 }
 
+.rowThree div button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
 /* Our services section */
 /* part one */
 
@@ -157,7 +182,7 @@ nav button {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 2px #000000;
-  padding-top: 5%;
+  padding-top: 15%;
   margin-top: 5%;
 }
 
@@ -204,6 +229,12 @@ nav button {
   margin: 10% 27%;
 }
 
+.partTwo div button:hover {
+  background-color: lightgray;
+  color: #00003f;
+  cursor: pointer;
+}
+
 .partThree {
   margin-top: 5%;
   background-color: #f2f2f2;
@@ -226,6 +257,12 @@ nav button {
   color: grey;
   border-radius: 10px;
   margin: 2% 5%;
+}
+
+.partThree button:hover {
+  background-color: lightgray;
+  color: #00003f;
+  cursor: pointer;
 }
 
 .contact {
@@ -273,6 +310,8 @@ nav button {
 
 .formLeft {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .formRight {
@@ -282,7 +321,7 @@ nav button {
 .formLeft input {
   border: none;
   background-color: rgba(246, 246, 246, 0.4);
-  margin-bottom: 5%;
+  // margin-bottom: 4.3%;
   height: 3em;
   border-radius: 5px;
   width: 95%;
@@ -307,4 +346,43 @@ nav button {
   border-color: white;
   color: white;
   background-color: #262628;
+}
+
+.formRight button:hover {
+  background-color: white;
+  color: #262628;
+  border-color: #262628;
+  cursor: pointer;
+}
+
+// Footer
+footer {
+  text-align: center;
+  // margin-top: 5%;
+}
+
+.topFooter {
+  font-style: italic;
+  max-width: 30%;
+  margin: 5% auto;
+  color: #999;
+}
+
+.topFooter h2 {
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.bottomFooter {
+  font-size: 0.7em;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  color: #666666;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
