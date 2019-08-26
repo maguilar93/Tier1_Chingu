@@ -42,3 +42,22 @@ about.addEventListener("click", function() {
 contact.addEventListener("click", function() {
   smoothScroll(".contact", 1000);
 });
+
+// Parallax effect on images?
+// window.addEventListener("scroll", function(e) {
+//   var scrolled = window.pageYOffset;
+
+//   const background = document.querySelector(".conquer");
+//   background.style.top = -(scrolled * 5) + "px";
+// });
+
+const partOne = document.querySelector(".partOne");
+const rowOne = document.querySelector(".rowOne");
+const contactImg = document.querySelector(".contact");
+
+window.addEventListener("scroll", function() {
+  let offset = window.pageYOffset;
+  partOne.style.backgroundPositionY = offset * -0.2 + "px";
+  rowOne.style.backgroundPositionY = offset * 0.3 + "px";
+  contactImg.style.backgroundPositionY = offset * -0.15 + "px";
+});
