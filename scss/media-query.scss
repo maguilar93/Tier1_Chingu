@@ -1,0 +1,129 @@
+@media screen and (max-width: 1200px) {
+  nav {
+    height: 60px;
+  }
+
+  #navOption {
+    padding: 10px;
+  }
+
+  .rowTwo div img {
+    height: 20%;
+  }
+
+  .rowThree div img {
+    height: 20%;
+  }
+
+  .partTwo div img {
+    height: 20%;
+  }
+
+  .topForm p {
+    height: 15%;
+    padding: 5% 12%;
+  }
+
+  .contact div {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  nav {
+    display: none;
+  }
+
+  nav ul {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+    flex-direction: column;
+    transition: transform 0.25s ease-out;
+    justify-content: flex-start;
+  }
+
+  nav i {
+    display: block;
+  }
+
+  #navOption {
+    margin: 0;
+    list-style: none;
+    display: block;
+  }
+
+  .rowTwo,
+  .rowThree {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rowTwo div {
+    width: 50%;
+    margin: 5% auto;
+  }
+
+  .rowThree div {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .rowThree div img {
+    height: 35%;
+  }
+
+  .partOne {
+    background-size: 150%;
+    height: 40%;
+  }
+
+  .partTwo {
+    flex-wrap: wrap;
+  }
+
+  .partTwo div {
+    width: 45%;
+    margin-bottom: 5%;
+  }
+
+  .contact {
+    background-size: 200%;
+  }
+
+  .contact div {
+    top: 5%;
+    height: 50%;
+  }
+
+  .topForm,
+  .bottomForm {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .topForm p {
+    height: 25%;
+    padding: 2% 15%;
+  }
+
+  .bottomForm {
+    flex-direction: column;
+    width: 95%;
+    height: 80%;
+  }
+
+  .formLeft,
+  .formRight {
+    width: 100%;
+  }
+
+  .formRight textarea {
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}

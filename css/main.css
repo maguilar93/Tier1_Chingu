@@ -6,22 +6,42 @@ body {
 
 nav {
   background-color: #383e4c;
-  height: 8%;
+  height: 80px;
   padding-top: 1%;
   padding-bottom: 1.5%;
-  text-align: center; }
+  width: 100%; }
 
-nav button {
+nav ul {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin-top: 5px; }
+
+#navOption {
   padding: 15px;
   margin: 1%;
   background-color: #383e4c;
   color: white;
   font-size: 1.2em;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  border: 1px white solid;
+  list-style: none; }
 
-nav button:hover {
+#navOption:hover {
   background-color: #474f61;
   cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:visited {
+  color: white;
+  text-decoration: none; }
 
 .wrapper {
   margin-left: 10%;
@@ -150,16 +170,16 @@ nav button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30%;
+  height: 50%;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 2px #000000;
-  padding-top: 15%;
   margin-top: 5%; }
 
 .partOne h2 {
   font-size: 2em;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  padding-top: 10%; }
 
 .partOne p {
   margin: 0 25%;
@@ -231,7 +251,7 @@ nav button:hover {
   height: 80%; }
 
 .contact div {
-  top: 10%;
+  top: 17%;
   position: relative;
   height: 100%; }
 
@@ -250,8 +270,9 @@ nav button:hover {
 .topForm p {
   text-align: center;
   background-color: rgba(246, 246, 246, 0.4);
-  height: 13%;
-  padding: 5% 15%; }
+  height: 5%;
+  padding: 7% 15%;
+  border-radius: 10px; }
 
 .bottomForm {
   display: flex;
@@ -282,7 +303,11 @@ nav button:hover {
   height: 95%;
   margin-bottom: 5%;
   border-radius: 5px;
-  padding-left: 3%; }
+  padding-left: 3%;
+  padding-top: 1%; }
+
+::placeholder {
+  color: black; }
 
 .formRight button {
   height: 2.5em;

@@ -43,13 +43,7 @@ contact.addEventListener("click", function() {
   smoothScroll(".contact", 1000);
 });
 
-// Parallax effect on images?
-// window.addEventListener("scroll", function(e) {
-//   var scrolled = window.pageYOffset;
-
-//   const background = document.querySelector(".conquer");
-//   background.style.top = -(scrolled * 5) + "px";
-// });
+// Parallax effect on images
 
 const partOne = document.querySelector(".partOne");
 const rowOne = document.querySelector(".rowOne");
@@ -60,4 +54,18 @@ window.addEventListener("scroll", function() {
   partOne.style.backgroundPositionY = offset * -0.2 + "px";
   rowOne.style.backgroundPositionY = offset * 0.3 + "px";
   contactImg.style.backgroundPositionY = offset * -0.15 + "px";
+});
+
+// hide and show navbar
+const menu = document.querySelector(".menu");
+const menuToggle = document.querySelector(".menuToggle");
+
+menuToggle.addEventListener("click", e => {
+  e.preventDefault();
+
+  if (window.getComputedStyle(menu).display === "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
 });
